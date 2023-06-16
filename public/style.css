@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scroll-margin-top: 13vh;
+}
+
+#root{
+    height: 300%;
+    width: 100%;
+}

@@ -1,0 +1,72 @@
+.Services {
+    min-height: 330px;
+    height: 36vh;
+    width: 100%;
+    background-color: rgb(230, 240, 244);
+    scroll-margin-top: 13vh;
+}
+
+.titleServices{
+    height: 30%;
+    letter-spacing: 5px;
+    font-size: 40px;
+    align-items: flex-end;
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: rgb(69, 168, 179);
+    display: flex;
+    justify-content: center;
+}
+
+#our {
+    color: black;
+}
+
+.itemsService {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Service1,.Service2,.Service3 {
+    display: inline-block;
+    height: 90px;
+    width: 370px;
+    position: relative;
+}
+
+.Service2,.Service3{
+    margin-left: 2vw;
+}
+
+.text{
+    position: absolute;
+    left: 80px;
+}
+
+.titleService{
+    letter-spacing: 5px;
+}
+
+.textService {
+    margin-top: 10px;
+    line-height: 22px;
+    opacity: 0.6;
+}
+
+.symbole {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(69, 168, 179);
+}
+
+.fas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    opacity: 0.5;
+}

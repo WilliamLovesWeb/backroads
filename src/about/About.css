@@ -1,0 +1,69 @@
+.title {
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: rgb(69, 168, 179);
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: flex-end;
+}
+
+#aboutFont {
+    color: black;
+}
+
+.bottom {
+    display: block;
+    height: 70vh;
+    position: relative;
+}
+
+.left, .right {
+    position: absolute;
+    width: 50%;
+    height: 70vh;
+}
+
+.right {
+    left: 50%;
+}
+
+.square {
+    width: 75%;
+    height: 65%;
+    margin-top: 5%;
+    margin-left: 19%;
+    border: 10px solid rgb(69, 168, 179);
+    position: relative;
+}
+
+.divPictureBeach {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top : 5%;
+    left: 5%;    
+    background-image: url("../images/about.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.titleRight {
+    margin-top: 9%;
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-bottom: 1%;
+    margin-left: 3%;
+}
+
+.paragraph {
+    color: rgb(35, 82, 87);
+    margin-bottom: 3%;
+}
+
+.line1, .line2 {
+    margin-bottom: 0.5%;
+    margin-left: 3%;
+}

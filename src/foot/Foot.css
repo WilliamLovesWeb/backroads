@@ -1,0 +1,68 @@
+.Foot{
+    scroll-margin-top: 13vh;
+    background-color: rgb(0, 0, 47);
+    width: 100%;
+    min-height: 220px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+
+.parentClassFoot{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.classPageLinksFoot {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.pageLinkFoot {
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a.pageLinkFoot:hover  {
+    color: rgb(69, 168, 179);
+}
+
+.classSocialLinksFoot {
+    width: 10%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a.socialLinkFoot {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+}
+
+.Sentence {
+    display: flex;
+    width: 50%;
+    min-width: 605px;
+    height: 20%;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 7px;
+}

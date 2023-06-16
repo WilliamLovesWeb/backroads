@@ -1,0 +1,123 @@
+.titleTours{
+    height: 7%;
+    letter-spacing: 5px;
+    font-size: 40px;
+    align-items: flex-end;
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: rgb(69, 168, 179);
+    display: flex;
+    justify-content: center;
+}
+
+#featured {
+    color: black;
+}
+
+.items{
+    height: 93%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.itemsTours{
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.Tour {
+    width: 310px;
+    height: 450px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: width 0.3s, height 0.3s;
+}
+
+.Tour:hover{
+    width: 360px;
+    height: 500px;
+}
+
+.imageTour {
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.dateTour {
+    position: absolute;
+    background-color: rgb(0, 223, 223);
+    padding: 5px;
+    bottom: 0;
+    right: 0;
+}
+
+.legend {
+    background-color: rgb(230, 240, 244);
+    height: 50%;
+    position: relative;
+}
+
+.titleLegend {
+    height: 18%;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 5px;
+}
+
+.infoLegend {
+    display: inline-block;
+    height: 50%;
+    width: 300px;
+    position: absolute;
+    left: 5%;
+    top: 24%;
+    line-height: 25px;
+    opacity: 0.75;
+}
+
+.bottomTours {
+    display: inline;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    color: rgb(0, 149, 149);
+    
+}
+
+.location {
+    display: flex;
+    align-items: top;
+    position: absolute;
+    left: 5%;
+}
+
+.location i {
+    display: inline-block;
+    height: 30px;
+    width: 20px;
+    opacity: 0.8;
+}
+
+.cost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.duration{
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
